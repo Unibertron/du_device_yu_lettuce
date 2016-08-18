@@ -1,4 +1,4 @@
-# Copyright (C) 2016  The YUTeleventures
+# Copyright (C) 2016  DirtyUnicorns
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,13 +14,13 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
-# Inherit some common YUOS stuff.
-$(call inherit-product, vendor/yuos/config/common_full_phone.mk)
+# Inherit some common DU stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := yu_lettuce
+PRODUCT_NAME := du_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 

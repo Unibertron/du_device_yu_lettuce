@@ -1,2 +1,2 @@
-add_lunch_combo yu_lettuce-eng
-add_lunch_combo yu_lettuce-userdebug
+add_lunch_combo du_lettuce-eng
+add_lunch_combo du_lettuce-userdebug
