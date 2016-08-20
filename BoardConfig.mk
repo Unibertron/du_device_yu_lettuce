@@ -75,5 +75,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
 # Fuck you Jack
 ANDROID_COMPILE_WITH_JACK := false
 
+# and you too bitch QMI
+TARGET_USES_QCOM_WCNSS_QMI := false
+
 # inherit from the proprietary version
 -include vendor/yu/lettuce/BoardConfigVendor.mk
