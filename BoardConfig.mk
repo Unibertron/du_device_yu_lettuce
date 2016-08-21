@@ -20,5 +20,8 @@ include device/yu/lettuce/board/*.mk
 # Send Jack N Jill down the DU hill
 ANDROID_COMPILE_WITH_JACK_AND_JILL := false
 
+# Bye QMI
+TARGET_USES_QCOM_WCNSS_QMI := false
+
 # inherit from proprietary files
 -include vendor/yu/lettuce/BoardConfigVendor.mk
